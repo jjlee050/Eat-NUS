@@ -1,4 +1,4 @@
-package com.eatnus.login
+package com.eatnus.ui
 
 import org.junit.Test
 
