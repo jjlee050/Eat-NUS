@@ -20,6 +20,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener{
         when(v?.id){
             R.id.btn_login -> {
                 Toast.makeText(this, "Test", Toast.LENGTH_SHORT).show()
+                var name  = et_username.text.toString()
+                var password = et_password.text.toString()
             }
         }
     }
