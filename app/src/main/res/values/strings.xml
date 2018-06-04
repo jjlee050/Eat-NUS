@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">EatNUSApp</string>
+    <string name="app_name">Eat@NUS</string>
+    <string name="login">Login </string>
+    <string name="login_name_placeholder">Enter your name</string>
 </resources>
