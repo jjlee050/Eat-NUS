@@ -1,7 +1,7 @@
 package com.eatnus.login
 
 import android.support.annotation.NonNull
-import java.util.*
+import com.google.common.base.Optional
 
 class LoginPresenter : LoginContract.Presenter {
 
@@ -14,8 +14,12 @@ class LoginPresenter : LoginContract.Presenter {
     override fun start() {
     }
 
-    override fun checkTypeOfUser(name: Optional<String>) {
-        //name.map( val x! => x)
-        //Check prefix
+    override fun isValidUserPrefix(name: Optional<String>): Boolean {
+        if(!name.isPresent){
+            return false
+        }
+        else{
+        }
+        return true
     }
 }
