@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login.LoginActivity">
+    tools:context=".ui.login.LoginActivity">
 
     <Button
         android:id="@+id/btn_login"
@@ -30,7 +30,6 @@
         android:layout_marginTop="160dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/login_name_placeholder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
