@@ -19,6 +19,10 @@ class LoginPresenter (var mLoginView: LoginContract.View): LoginContract.Present
         loginView.showLoginError("Invalid prefix. Please enter a valid prefix (e.g. nusstu, nusstf, stall name)")
     }
 
+    override fun onUserNameError() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
     override fun onPasswordError() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }

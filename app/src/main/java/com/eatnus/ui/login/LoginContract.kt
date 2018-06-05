@@ -17,6 +17,8 @@ interface LoginContract {
 
             fun onPrefixError()
 
+            fun onUserNameError()
+
             fun onPasswordError()
 
             fun onSuccess()
