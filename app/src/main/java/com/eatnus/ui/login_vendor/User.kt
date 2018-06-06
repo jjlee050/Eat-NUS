@@ -1,4 +1,5 @@
-package com.eatnus.ui.login
+package com.eatnus.ui.login_vendor
+
 
 class User{
     var name: String? = null

@@ -1,6 +1,6 @@
-package com.eatnus.ui.login
+package com.eatnus.ui.login_vendor
 
-interface LoginContract {
+interface LoginVendorContract {
     interface View {
         fun showLoginError(msg: String)
     }

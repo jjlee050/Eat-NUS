@@ -1,9 +1,9 @@
-package com.eatnus.ui.login
+package com.eatnus.ui.login_vendor
 
 import android.text.TextUtils
 
-class LoginInteractor: LoginContract.Interactor{
-    override fun login(name: String, password: String, listener: LoginContract.Interactor.OnLoginFinishedListener){
+class LoginVendorInteractor: LoginVendorContract.Interactor{
+    override fun login(name: String, password: String, listener: LoginVendorContract.Interactor.OnLoginFinishedListener){
         if(TextUtils.isEmpty(name)){
             listener.onEmptyUsernameError()
             return

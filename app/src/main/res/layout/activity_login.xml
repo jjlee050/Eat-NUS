@@ -6,11 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".ui.login.LoginActivity">
 
+    <Button
+        android:id="@+id/btn_login_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/login_customer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <WebView
-        android:id="@+id/webview_login"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </WebView>
+    <Button
+        android:id="@+id/btn_login_vendor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="212dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/login_vendor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login_customer" />
 
 </android.support.constraint.ConstraintLayout>

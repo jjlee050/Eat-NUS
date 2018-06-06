@@ -1,8 +1,8 @@
-package com.eatnus.ui.login
+package com.eatnus.ui.login_vendor
 
-class LoginPresenter (var mLoginView: LoginContract.View): LoginContract.Presenter, LoginContract.Interactor.OnLoginFinishedListener {
-    private var loginView: LoginContract.View = mLoginView
-    private var loginInteractor: LoginInteractor = LoginInteractor()
+class LoginVendorPresenter(var mLoginView: LoginVendorContract.View): LoginVendorContract.Presenter, LoginVendorContract.Interactor.OnLoginFinishedListener{
+    private var loginView: LoginVendorContract.View = mLoginView
+    private var loginInteractor: LoginVendorInteractor = LoginVendorInteractor()
 
     override fun login(name: String, password: String) {
         loginInteractor.login(name, password, this)
