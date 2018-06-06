@@ -1,5 +1,11 @@
-package com.eatnus.ui.login_vendor
+package com.eatnus.ui.login.vendor.contract
 
+//LoginVendorContract.kt
+/**
+ * Contract Interface to enforce for login vendor.
+ *
+ * @author Joseph Lee
+ */
 interface LoginVendorContract {
     interface View {
         fun showLoginError(msg: String)

@@ -3,7 +3,12 @@ package com.eatnus
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
-
+//App.kt
+/**
+ * The main application for the android project.
+ *
+ * @author Joseph Lee
+ */
 class App : Application() {
 
     override fun onCreate() {

@@ -1,8 +1,19 @@
-package com.eatnus.ui.login_vendor
+package com.eatnus.ui.login.vendor.interactor
 
 import android.text.TextUtils
+import com.eatnus.ui.login.vendor.contract.LoginVendorContract
 
-class LoginVendorInteractor: LoginVendorContract.Interactor{
+//LoginVendorInteractor.kt
+/**
+ * Interactor class to handle login vendor.
+ *
+ * @author Joseph Lee
+ */
+class LoginVendorInteractor: LoginVendorContract.Interactor {
+
+    /**
+     * Validate vendor and admin accordingly.
+     */
     override fun login(name: String, password: String, listener: LoginVendorContract.Interactor.OnLoginFinishedListener){
         if(TextUtils.isEmpty(name)){
             listener.onEmptyUsernameError()
